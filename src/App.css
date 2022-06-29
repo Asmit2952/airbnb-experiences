@@ -9,9 +9,11 @@ body {
 
 .navbar {
   height: 80px;
+  width: 100%;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
+  background-color: #FFFFFF;
 }
 
 .air-logo {
@@ -20,6 +22,10 @@ body {
   position: relative;
   top: 20px;
   left: 70px;
+}
+
+.hero-section {
+  margin: 70px;
 }
 
 .photog {

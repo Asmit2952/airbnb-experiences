@@ -7,6 +7,10 @@ body {
   margin: 0;
 }
 
+section {
+  margin: 70px;
+}
+
 .navbar {
   height: 80px;
   width: 100%;
@@ -24,10 +28,6 @@ body {
   left: 70px;
 }
 
-.hero-section {
-  margin: 70px;
-}
-
 .photog {
   display: flex;
   justify-content: center;
@@ -35,5 +35,5 @@ body {
 }
 
 .air-grid {
-  height: 400px;
+  height: 450px;
 }

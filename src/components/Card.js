@@ -2,8 +2,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 
 export default function Card(props) {
+
+    let badgeText
+    if (props.openSpots === 0) {
+        badgeText = "SOLD OUT"
+    } else if (props.location === "Online") {
+        badgeText = "ONLINE"
+    }
+
     return (
         <div className="card">
+            {badgeText && <div className="card--badge">{badgeText}</div>}
             <img src={`../images/${props.img}`} alt="images" className="card--image" />
             <div className="card--stats">
                 <FontAwesomeIcon icon={faStar} className="card--star"/>

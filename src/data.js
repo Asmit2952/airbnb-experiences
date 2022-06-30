@@ -1,4 +1,4 @@
-export default [
+var item = [
     {
         id: 1,
         title: "Life Lessons with Katie Zaferes",
@@ -37,5 +37,33 @@ export default [
         },
         location: "Norway",
         openSpots: 3,
+    },
+    {
+        id: 4,
+        title: "Indian tea culture & Shisha/hookah",
+        description: "Indian tea also known as chai is integral part of Indian culture. It's brewed and enjoyed in different forms across the country.",
+        price: 26,
+        coverImg: "indian-tea.png",
+        stats: {
+            rating: 5.0,
+            reviewCount: 1
+        },
+        location: "India",
+        openSpots: 3,
+    },
+    {
+        id: 5,
+        title: "Kayaking in backwaters mangroves",
+        description: "A kayak leader will join you for this experience. You can opt to chose join with a co paddler or go solo.",
+        price: 50,
+        coverImg: "kayak.png",
+        stats: {
+            rating: 4.8,
+            reviewCount: 2
+        },
+        location: "India",
+        openSpots: 3,
     }
 ]
+
+export default item

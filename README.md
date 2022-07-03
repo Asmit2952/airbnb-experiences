@@ -2,6 +2,7 @@
 
 This is a React practice project.
 
+The site is live [here](https://airbnb-experiences-asmit2952.vercel.app/).
 ![preview](./public/images/preview.png)
 
 ## Getting Started with Create React App
